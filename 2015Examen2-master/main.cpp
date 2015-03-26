@@ -18,7 +18,7 @@ using namespace std;
 void escribir(string nombre_archivo, Planeta*planeta, int posicion)
 {
     ofstream out(nombre_archivo.c_str(), ios::in);
-    out.seekp(posicion*30);
+    out.seekp(posicion*23);
     out.write(planeta->nombre.c_str(),10);
     out.write((char*)&planeta->habitantes,4);
     out.write((char*)&planeta->diametro,8);
@@ -32,7 +32,7 @@ void escribir(string nombre_archivo, Planeta*planeta, int posicion)
 Planeta* leer(string nombre_archivo, int posicion)
 {
     ifstream in(nombre_archivo.c_str());
-    in.seekg(posicion*30);
+    in.seekg(posicion*23);
     char* nombre = new char[10];
 
     string n = nombre;
@@ -53,7 +53,6 @@ Planeta* leer(string nombre_archivo, int posicion)
 //Nota: devuelve el valor mas viejo
 string getFondo(stack<string> mi_pila)
 {
-
     string resultado;
     int fondo_pila = mi_pila.size();
     for(int x = 0; x < fondo_pila; x++)
@@ -77,7 +76,7 @@ vector<int> convertirAVector(list<int> mi_lista)
 {
     vector<int> mi_vector;
 
-     for(list<int>::iterator listo = mi_lista.begin(); listo != mi_lista.end(); listo++)
+    for(list<int>::iterator listo = mi_lista.begin(); listo != mi_lista.end(); listo++)
     {
         mi_vector.push_back((*listo));
     }
