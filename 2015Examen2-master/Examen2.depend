@@ -1,0 +1,84 @@
+# depslib dependency file v1.0
+1427338473 source:/home/turupawn/Projects/Clases/OrgaTarea1-master/Evaluador.cpp
+	"Evaluador.h"
+
+1427337245 /home/turupawn/Projects/Clases/OrgaTarea1-master/Evaluador.h
+	"Planeta.h"
+	"NodoBinario.h"
+	<iostream>
+	<stack>
+	<queue>
+	<set>
+	<map>
+	<list>
+
+1427245617 /home/turupawn/Projects/Clases/OrgaTarea1-master/Planeta.h
+	<string>
+	<iostream>
+
+1427324401 /home/turupawn/Projects/Clases/OrgaTarea1-master/NodoBinario.h
+	<iostream>
+
+1427245080 source:/home/turupawn/Projects/Clases/OrgaTarea1-master/Libro.cpp
+	"Libro.h"
+
+1427245309 /home/turupawn/Projects/Clases/OrgaTarea1-master/Libro.h
+	<string>
+	<iostream>
+
+1427324359 source:/home/turupawn/Projects/Clases/OrgaTarea1-master/NodoBinario.cpp
+	"NodoBinario.h"
+
+1427245654 source:/home/turupawn/Projects/Clases/OrgaTarea1-master/Planeta.cpp
+	"Planeta.h"
+
+1427338530 source:/home/turupawn/Projects/Clases/OrgaTarea1-master/main.cpp
+	<iostream>
+	<list>
+	<fstream>
+	<stack>
+	<queue>
+	<set>
+	<map>
+	"Planeta.h"
+	"Evaluador.h"
+	"NodoBinario.h"
+
+1427386280 source:c:\users\rafael\examen2\2015examen2-master\evaluador.cpp
+	"Evaluador.h"
+
+1427386280 c:\users\rafael\examen2\2015examen2-master\evaluador.h
+	"Planeta.h"
+	"NodoBinario.h"
+	<iostream>
+	<stack>
+	<queue>
+	<set>
+	<map>
+	<list>
+
+1427386280 c:\users\rafael\examen2\2015examen2-master\planeta.h
+	<string>
+	<iostream>
+
+1427386280 c:\users\rafael\examen2\2015examen2-master\nodobinario.h
+	<iostream>
+
+1427393584 source:c:\users\rafael\examen2\2015examen2-master\nodobinario.cpp
+	"NodoBinario.h"
+
+1427386280 source:c:\users\rafael\examen2\2015examen2-master\planeta.cpp
+	"Planeta.h"
+
+1427394174 source:c:\users\rafael\examen2\2015examen2-master\main.cpp
+	<iostream>
+	<list>
+	<fstream>
+	<stack>
+	<queue>
+	<set>
+	<map>
+	"Planeta.h"
+	"Evaluador.h"
+	"NodoBinario.h"
+
