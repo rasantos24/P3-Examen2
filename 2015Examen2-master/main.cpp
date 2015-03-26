@@ -18,7 +18,7 @@ using namespace std;
 void escribir(string nombre_archivo, Planeta*planeta, int posicion)
 {
     ofstream out(nombre_archivo.c_str(), ios::in);
-    out.seekp(posicion*20);
+    out.seekp(posicion*30);
     out.write(planeta->nombre.c_str(),10);
     out.write((char*)&planeta->habitantes,4);
     out.write((char*)&planeta->diametro,8);
@@ -32,7 +32,7 @@ void escribir(string nombre_archivo, Planeta*planeta, int posicion)
 Planeta* leer(string nombre_archivo, int posicion)
 {
     ifstream in(nombre_archivo.c_str());
-    in.seekg(posicion*20);
+    in.seekg(posicion*30);
     char* nombre = new char[10];
 
     string n = nombre;
@@ -118,6 +118,7 @@ void buscarYReemplazar(NodoBinario* raiz, string buscado, string reemplazo)
         {
             raiz->valor=reemplazo;
         }
+
         buscarYReemplazar(raiz->hijo_der, buscado, reemplazo);
         buscarYReemplazar(raiz->hijo_izq, buscado, reemplazo);
     }
